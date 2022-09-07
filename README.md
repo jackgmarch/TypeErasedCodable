@@ -1,6 +1,6 @@
 # TypeErasedCodable
 
-A property wrapper that allows porting incompatible Objective-C types to Swift and Codable
+A property wrapper that allows porting incompatible Objective-C types like NSNumber to Swift and Codable
 
 # Motivation
 
