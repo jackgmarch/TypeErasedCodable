@@ -1,6 +1,6 @@
 # TypeErasedCodable
 
-A property wrapper that allows non Codable types to be represented by an underlying Codable type.
+A property wrapper that allows porting incompatible Objective-C types to Swift and Codable
 
 # Motivation
 
