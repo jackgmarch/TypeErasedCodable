@@ -40,7 +40,7 @@ You can make your own converters, and the usages go beyond Objective-C briding. 
 
  ```swift
 struct Person: Codable {
-    @TypeErasedCodable<NSNumberToIntConverter> var isAdult: Bool
+    @TypeErasedCodable<NonPresentBoolToFalse> var isAdult: Bool
 }
 ```
 
