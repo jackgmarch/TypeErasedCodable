@@ -36,7 +36,7 @@ To fix the above example, change the implementation to use TypeErasedCodable:
 }
 ```
 
-You can make your own converters, and the usages go beyond Objective-C briding. Here we convert a non present Boolean to false to avoid having to deal with optionals:
+You can make your own converters, and the usages go beyond Objective-C bridging. Here we convert a non present Boolean to false to avoid having to deal with optionals:
 
  ```swift
 struct Person: Codable {
